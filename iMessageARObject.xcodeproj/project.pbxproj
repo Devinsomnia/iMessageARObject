@@ -7,15 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7D8B5C923579C0C00D69BA9 /* ARObjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8B5C723579C0C00D69BA9 /* ARObjectCollectionViewCell.swift */; };
+		F7D8B5CA23579C0C00D69BA9 /* ARObjectCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D8B5C823579C0C00D69BA9 /* ARObjectCollectionViewCell.xib */; };
 		F7EF41D023576746000CD7A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF41CF23576746000CD7A1 /* AppDelegate.swift */; };
 		F7EF41D223576746000CD7A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF41D123576746000CD7A1 /* ViewController.swift */; };
 		F7EF41D423576746000CD7A1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F7EF41D323576746000CD7A1 /* Experience.rcproject */; };
 		F7EF41D723576746000CD7A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EF41D523576746000CD7A1 /* Main.storyboard */; };
 		F7EF41D923576748000CD7A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EF41D823576748000CD7A1 /* Assets.xcassets */; };
 		F7EF41DC23576748000CD7A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EF41DA23576748000CD7A1 /* LaunchScreen.storyboard */; };
+		F7EF41EA2357675F000CD7A1 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EF41E92357675F000CD7A1 /* Messages.framework */; };
+		F7EF41ED2357675F000CD7A1 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF41EC2357675F000CD7A1 /* MessagesViewController.swift */; };
+		F7EF41F02357675F000CD7A1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EF41EE2357675F000CD7A1 /* MainInterface.storyboard */; };
+		F7EF41F223576760000CD7A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EF41F123576760000CD7A1 /* Assets.xcassets */; };
+		F7EF41F623576760000CD7A1 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F7EF41E72357675F000CD7A1 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7EF41FC23576A2E000CD7A1 /* ARObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF41FB23576A2E000CD7A1 /* ARObjectViewController.swift */; };
+		F7EF420423579598000CD7A1 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF420323579598000CD7A1 /* toy_biplane.usdz */; };
+		F7EF4206235795A1000CD7A1 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF4205235795A0000CD7A1 /* toy_drummer.usdz */; };
+		F7EF4208235795A9000CD7A1 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF4207235795A9000CD7A1 /* toy_car.usdz */; };
+		F7EF420A235795B1000CD7A1 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF4209235795B1000CD7A1 /* toy_robot_vintage.usdz */; };
+		F7EF420C235795BB000CD7A1 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF420B235795BB000CD7A1 /* fender_stratocaster.usdz */; };
+		F7EF420E235795C3000CD7A1 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF420D235795C3000CD7A1 /* tv_retro.usdz */; };
+		F7EF4210235795CA000CD7A1 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF420F235795CA000CD7A1 /* gramophone.usdz */; };
+		F7EF4212235795D3000CD7A1 /* trowel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF4211235795D2000CD7A1 /* trowel.usdz */; };
+		F7EF4214235795DA000CD7A1 /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF4213235795DA000CD7A1 /* wateringcan.usdz */; };
+		F7EF4216235795EA000CD7A1 /* wheelbarrow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF4215235795EA000CD7A1 /* wheelbarrow.usdz */; };
+		F7EF4218235795F1000CD7A1 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF4217235795F1000CD7A1 /* chair_swan.usdz */; };
+		F7EF421A235795F8000CD7A1 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF4219235795F8000CD7A1 /* flower_tulip.usdz */; };
+		F7EF421C23579606000CD7A1 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF421B23579605000CD7A1 /* cup_saucer_set.usdz */; };
+		F7EF421E2357960B000CD7A1 /* pot_plant.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF421D2357960B000CD7A1 /* pot_plant.usdz */; };
+		F7EF422023579612000CD7A1 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F7EF421F23579612000CD7A1 /* teapot.usdz */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F7EF41F423576760000CD7A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7EF41C423576746000CD7A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7EF41E62357675F000CD7A1;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7EF41FA23576760000CD7A1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F7EF41F623576760000CD7A1 /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F7D8B5C723579C0C00D69BA9 /* ARObjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARObjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		F7D8B5C823579C0C00D69BA9 /* ARObjectCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARObjectCollectionViewCell.xib; sourceTree = "<group>"; };
 		F7EF41CC23576746000CD7A1 /* iMessageARObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessageARObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EF41CF23576746000CD7A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7EF41D123576746000CD7A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +73,28 @@
 		F7EF41D823576748000CD7A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7EF41DB23576748000CD7A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7EF41DD23576748000CD7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7EF41E72357675F000CD7A1 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EF41E92357675F000CD7A1 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		F7EF41EC2357675F000CD7A1 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		F7EF41EF2357675F000CD7A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F7EF41F123576760000CD7A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7EF41F323576760000CD7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7EF41FB23576A2E000CD7A1 /* ARObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARObjectViewController.swift; sourceTree = "<group>"; };
+		F7EF420323579598000CD7A1 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane.usdz; path = ../../../toy_biplane.usdz; sourceTree = "<group>"; };
+		F7EF4205235795A0000CD7A1 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_drummer.usdz; path = ../../../toy_drummer.usdz; sourceTree = "<group>"; };
+		F7EF4207235795A9000CD7A1 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_car.usdz; path = ../../../toy_car.usdz; sourceTree = "<group>"; };
+		F7EF4209235795B1000CD7A1 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_robot_vintage.usdz; path = ../../../toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		F7EF420B235795BB000CD7A1 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = fender_stratocaster.usdz; path = ../../../fender_stratocaster.usdz; sourceTree = "<group>"; };
+		F7EF420D235795C3000CD7A1 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = ../../../tv_retro.usdz; sourceTree = "<group>"; };
+		F7EF420F235795CA000CD7A1 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = gramophone.usdz; path = ../../../gramophone.usdz; sourceTree = "<group>"; };
+		F7EF4211235795D2000CD7A1 /* trowel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = trowel.usdz; path = ../../../trowel.usdz; sourceTree = "<group>"; };
+		F7EF4213235795DA000CD7A1 /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = wateringcan.usdz; path = ../../../wateringcan.usdz; sourceTree = "<group>"; };
+		F7EF4215235795EA000CD7A1 /* wheelbarrow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = wheelbarrow.usdz; path = ../../../wheelbarrow.usdz; sourceTree = "<group>"; };
+		F7EF4217235795F1000CD7A1 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = chair_swan.usdz; path = ../../../chair_swan.usdz; sourceTree = "<group>"; };
+		F7EF4219235795F8000CD7A1 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = flower_tulip.usdz; path = ../../../flower_tulip.usdz; sourceTree = "<group>"; };
+		F7EF421B23579605000CD7A1 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = cup_saucer_set.usdz; path = ../../../cup_saucer_set.usdz; sourceTree = "<group>"; };
+		F7EF421D2357960B000CD7A1 /* pot_plant.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = pot_plant.usdz; path = ../../../pot_plant.usdz; sourceTree = "<group>"; };
+		F7EF421F23579612000CD7A1 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = teapot.usdz; path = ../../../teapot.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +105,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7EF41E42357675F000CD7A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EF41EA2357675F000CD7A1 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7D8B5C623579BE400D69BA9 /* ARObjectCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8B5C723579C0C00D69BA9 /* ARObjectCollectionViewCell.swift */,
+				F7D8B5C823579C0C00D69BA9 /* ARObjectCollectionViewCell.xib */,
+			);
+			path = ARObjectCell;
+			sourceTree = "<group>";
+		};
 		F7EF41C323576746000CD7A1 = {
 			isa = PBXGroup;
 			children = (
 				F7EF41CE23576746000CD7A1 /* iMessageARObject */,
+				F7EF41EB2357675F000CD7A1 /* MessagesExtension */,
+				F7EF41E82357675F000CD7A1 /* Frameworks */,
 				F7EF41CD23576746000CD7A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				F7EF41CC23576746000CD7A1 /* iMessageARObject.app */,
+				F7EF41E72357675F000CD7A1 /* MessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +158,50 @@
 			path = iMessageARObject;
 			sourceTree = "<group>";
 		};
+		F7EF41E82357675F000CD7A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7EF41E92357675F000CD7A1 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7EF41EB2357675F000CD7A1 /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8B5C623579BE400D69BA9 /* ARObjectCell */,
+				F7EF420223579589000CD7A1 /* ARObject */,
+				F7EF41EC2357675F000CD7A1 /* MessagesViewController.swift */,
+				F7EF41FB23576A2E000CD7A1 /* ARObjectViewController.swift */,
+				F7EF41EE2357675F000CD7A1 /* MainInterface.storyboard */,
+				F7EF41F123576760000CD7A1 /* Assets.xcassets */,
+				F7EF41F323576760000CD7A1 /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		F7EF420223579589000CD7A1 /* ARObject */ = {
+			isa = PBXGroup;
+			children = (
+				F7EF420323579598000CD7A1 /* toy_biplane.usdz */,
+				F7EF4205235795A0000CD7A1 /* toy_drummer.usdz */,
+				F7EF4207235795A9000CD7A1 /* toy_car.usdz */,
+				F7EF4209235795B1000CD7A1 /* toy_robot_vintage.usdz */,
+				F7EF420B235795BB000CD7A1 /* fender_stratocaster.usdz */,
+				F7EF420D235795C3000CD7A1 /* tv_retro.usdz */,
+				F7EF420F235795CA000CD7A1 /* gramophone.usdz */,
+				F7EF4211235795D2000CD7A1 /* trowel.usdz */,
+				F7EF4213235795DA000CD7A1 /* wateringcan.usdz */,
+				F7EF4215235795EA000CD7A1 /* wheelbarrow.usdz */,
+				F7EF4217235795F1000CD7A1 /* chair_swan.usdz */,
+				F7EF4219235795F8000CD7A1 /* flower_tulip.usdz */,
+				F7EF421B23579605000CD7A1 /* cup_saucer_set.usdz */,
+				F7EF421D2357960B000CD7A1 /* pot_plant.usdz */,
+				F7EF421F23579612000CD7A1 /* teapot.usdz */,
+			);
+			path = ARObject;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +212,34 @@
 				F7EF41C823576746000CD7A1 /* Sources */,
 				F7EF41C923576746000CD7A1 /* Frameworks */,
 				F7EF41CA23576746000CD7A1 /* Resources */,
+				F7EF41FA23576760000CD7A1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F7EF41F523576760000CD7A1 /* PBXTargetDependency */,
 			);
 			name = iMessageARObject;
 			productName = iMessageARObject;
 			productReference = F7EF41CC23576746000CD7A1 /* iMessageARObject.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F7EF41E62357675F000CD7A1 /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7EF41F723576760000CD7A1 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				F7EF41E32357675F000CD7A1 /* Sources */,
+				F7EF41E42357675F000CD7A1 /* Frameworks */,
+				F7EF41E52357675F000CD7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = F7EF41E72357675F000CD7A1 /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +252,9 @@
 				ORGANIZATIONNAME = "Tuncay Cansız";
 				TargetAttributes = {
 					F7EF41CB23576746000CD7A1 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					F7EF41E62357675F000CD7A1 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -116,6 +273,7 @@
 			projectRoot = "";
 			targets = (
 				F7EF41CB23576746000CD7A1 /* iMessageARObject */,
+				F7EF41E62357675F000CD7A1 /* MessagesExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +286,31 @@
 				F7EF41DC23576748000CD7A1 /* LaunchScreen.storyboard in Resources */,
 				F7EF41D923576748000CD7A1 /* Assets.xcassets in Resources */,
 				F7EF41D723576746000CD7A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EF41E52357675F000CD7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EF422023579612000CD7A1 /* teapot.usdz in Resources */,
+				F7EF420E235795C3000CD7A1 /* tv_retro.usdz in Resources */,
+				F7EF4206235795A1000CD7A1 /* toy_drummer.usdz in Resources */,
+				F7EF41F223576760000CD7A1 /* Assets.xcassets in Resources */,
+				F7EF421A235795F8000CD7A1 /* flower_tulip.usdz in Resources */,
+				F7EF4214235795DA000CD7A1 /* wateringcan.usdz in Resources */,
+				F7EF41F02357675F000CD7A1 /* MainInterface.storyboard in Resources */,
+				F7EF420423579598000CD7A1 /* toy_biplane.usdz in Resources */,
+				F7EF4218235795F1000CD7A1 /* chair_swan.usdz in Resources */,
+				F7EF4212235795D3000CD7A1 /* trowel.usdz in Resources */,
+				F7D8B5CA23579C0C00D69BA9 /* ARObjectCollectionViewCell.xib in Resources */,
+				F7EF421E2357960B000CD7A1 /* pot_plant.usdz in Resources */,
+				F7EF4208235795A9000CD7A1 /* toy_car.usdz in Resources */,
+				F7EF4216235795EA000CD7A1 /* wheelbarrow.usdz in Resources */,
+				F7EF421C23579606000CD7A1 /* cup_saucer_set.usdz in Resources */,
+				F7EF420C235795BB000CD7A1 /* fender_stratocaster.usdz in Resources */,
+				F7EF420A235795B1000CD7A1 /* toy_robot_vintage.usdz in Resources */,
+				F7EF4210235795CA000CD7A1 /* gramophone.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +327,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7EF41E32357675F000CD7A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EF41FC23576A2E000CD7A1 /* ARObjectViewController.swift in Sources */,
+				F7D8B5C923579C0C00D69BA9 /* ARObjectCollectionViewCell.swift in Sources */,
+				F7EF41ED2357675F000CD7A1 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7EF41F523576760000CD7A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7EF41E62357675F000CD7A1 /* MessagesExtension */;
+			targetProxy = F7EF41F423576760000CD7A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F7EF41D523576746000CD7A1 /* Main.storyboard */ = {
@@ -161,6 +362,14 @@
 				F7EF41DB23576748000CD7A1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F7EF41EE2357675F000CD7A1 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7EF41EF2357675F000CD7A1 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,6 +492,7 @@
 		F7EF41E123576748000CD7A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 973AVAD8XK;
@@ -301,6 +511,7 @@
 		F7EF41E223576748000CD7A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 973AVAD8XK;
@@ -311,6 +522,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuncaycansiz.iMessageARObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7EF41F823576760000CD7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973AVAD8XK;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuncaycansiz.iMessageARObject.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7EF41F923576760000CD7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973AVAD8XK;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuncaycansiz.iMessageARObject.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,6 +584,15 @@
 			buildConfigurations = (
 				F7EF41E123576748000CD7A1 /* Debug */,
 				F7EF41E223576748000CD7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7EF41F723576760000CD7A1 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EF41F823576760000CD7A1 /* Debug */,
+				F7EF41F923576760000CD7A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
